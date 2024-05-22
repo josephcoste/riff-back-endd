@@ -22,5 +22,5 @@ urlpatterns = [
     path('follows/<int:profile_id>/users/', FollowsList.as_view(), name='followsList'),
     
     path('posts/<int:post_id>/remove_like/<int:profile_id>/', RemoveLikeFromPost.as_view(), name = 'removeLikeFromPost'),
-    path('posts/<int:post_id>/add_like/<int:profile_id>/', AddLikeToPost.as_view(), name = 'addLikeToPost'),
+    path('posts/<int:post_id>/add_like/<int:profile_id>/', AddLikeToPost.as_view(), name = 'addLikeToPost')
 ]

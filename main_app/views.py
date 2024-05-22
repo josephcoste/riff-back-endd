@@ -10,7 +10,7 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from .models import Post, Profile, Follow, User
 from .serializers import UserSerializer, ProfileSerializer, FollowSerializer, PostSerializer 
 
-# Home
+# Home123455
 class Home(APIView):
     def get(self, request):
         content = {'message': 'Welcome to the Riff api home route!'}

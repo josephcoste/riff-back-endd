@@ -12,6 +12,7 @@ django-cors-headers = "*"
 django-mptt = "*"
 pillow = "*"
 whitenoise = "*"
+gunicorn = "*"
 
 [dev-packages]
 

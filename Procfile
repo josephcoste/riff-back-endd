@@ -1,0 +1,1 @@
+web: gunicorn glacial-spire-93457.wsgi --log-file -

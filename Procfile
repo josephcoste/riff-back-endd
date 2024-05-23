@@ -1,1 +1,1 @@
-web: gunicorn riff-back-endd.wsgi --log-file -
+web: gunicorn back_end_riff.wsgi --log-file -
